@@ -10,7 +10,7 @@ $(document).ready(function() {
 });
 
 function search() {
-	console.log("working");
+	alert("working");
 	//authorise
 	OAuth.popup('twitter').done(function(result) {
 		
